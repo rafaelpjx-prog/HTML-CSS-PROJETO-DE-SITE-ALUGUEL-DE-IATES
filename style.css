@@ -1,0 +1,251 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: #21272B;
+}
+
+body {
+    background-color: #EBEBEB;
+}
+
+.geral {
+    width: 980px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topo {
+    background-color: #21272B;
+    position: relative;
+    height: 90px;
+}
+
+.topo-logotipo {
+    width: 200px;
+    display: flex;
+    position: absolute;
+    gap: 5px;
+    top: 16px;
+    left: 10px;
+    padding-top: 5px;
+}
+
+.topo-logotipo img {
+    object-fit: contain;
+    width: 41px;
+    height: 55px;
+}
+
+.topo-titulo {
+    width: 165px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 12px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    color: #1BB4E8;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+}
+
+.menu {
+    width: 628px;
+    display: flex;
+    justify-content:center;
+    position: absolute;
+    top: 60px;
+    left: 350px;
+}
+
+.menu a:hover {
+    color: #1BB4E8;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
+.menu-item {
+    border-right: 1px solid white;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+
+.principal {
+    position: relative;
+}
+
+.imagem-principal {
+    background-color: white;
+    height: 495px;
+    position: relative;
+}
+
+.quadro-sobre-imagem {
+    background-color: #1a3243c9;
+    width: 355px;
+    height: 155px;
+    position: absolute;
+    top: 210px;
+    left: 520px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+
+.logo-texto-fone {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.logo-texto {
+    display: flex;
+    gap: 10px;
+}
+
+.logo-texto img {
+    object-fit: contain;
+    width: 20px;
+    height: 30px;
+}
+
+.agendar-telefone {
+    display: inline-block;
+    padding-bottom: 0px;
+    width: 300px;
+}
+
+h3 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;  
+}
+
+h4 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-style: italic;
+}
+
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    color: #FFFFFF;
+}
+
+#texto-quadro {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-style: italic;
+    color: #FFFFFF;
+    display: inline;
+}
+
+h6 {
+    color: #C6B07F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    display: inline;
+}
+
+p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    text-align:left;
+}
+
+.destinos-geral {
+    width: 455px;
+}
+
+.destinos {
+    background-color:#1BB4E8;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    display: flex;
+    line-height: 1.7;
+    gap: 5px;
+}
+
+.topicos-texto {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.nossa-frota-geral {
+    width: 425px;
+}
+
+.nossafrota {
+    background-color:#C6B07F;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    display: flex;
+    line-height: 1.7;
+    gap: 5px;
+}
+
+.Contêiner-barcos {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 1em;
+    justify-content: center;
+}
+
+.topicos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.copy-rights {
+    background-color: lightgray;
+    padding: 20px;
+    text-align: left;
+}
